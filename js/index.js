@@ -87,7 +87,7 @@ $(document).ready(function() {
       //  html += '<a data-toggle="tooltip" title="' + project.site[1][0] + '" data-placement="top" href="' + project.site[1][2] + '" target="_blank" class="btn btn-primary btn-lg btn-circle btn-lnk btn-lnk1"><i class="fa ' + project.site[1][1] + '" aria-hidden="true"></i></a>';
       }
 
-      html += '</div></figcaption></figure></div>';
+      html += '</div></div>';
       html += '</div>';
       html += '</div>';
     });
