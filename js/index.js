@@ -91,7 +91,7 @@ $(document).ready(function() {
       html += '</div>';
       html += '</div>';
     });
-
+     projs=$('#theProjects')
     $('#theProjects').append(html);
     addListener();
   }
